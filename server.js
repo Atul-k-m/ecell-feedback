@@ -12,7 +12,7 @@ app.use(express.json({ limit: '10mb' }));
 
 // Enhanced CORS configuration
 app.use(cors({
-    origin: ['https://atul-k-m.github.io/ecell-feedback/', 'http://127.0.0.1:5500', 'http://localhost:3000'],
+    origin: ['https://atul-k-m.github.io/ecell-feedback', 'http://127.0.0.1:5500', 'http://localhost:3000'],
     methods: ['GET', 'POST', 'PUT', 'DELETE'],
     credentials: true,
     allowedHeaders: ['Content-Type', 'Authorization']
