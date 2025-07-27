@@ -7,7 +7,7 @@ let autoNextTimer = null;
 let questionnaireCompleted = false;
 
 // Backend URL configuration
-const API_BASE_URL = 'http://localhost:3000';
+const API_BASE_URL = 'https://ecell-feedback.onrender.com';
 
 // Auto-next delay for multiple choice questions (in milliseconds)
 const AUTO_NEXT_DELAY = 150;
