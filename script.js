@@ -15,7 +15,7 @@ const AUTO_NEXT_DELAY = 150;
 // Load questions from JSON file
 async function loadQuestions() {
     try {
-        const response = await fetch('/questions.json');
+      const response = await fetch('questions.json');
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
