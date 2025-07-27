@@ -80,14 +80,14 @@
         "question": "I felt proud to be part of this initiative.",
         "type": "rating",
         "scale": 5
-      },
-      {
-        "question": "I felt that E-Cell sometimes had to compromise or limit its scope due to the nature of being in an engineering college instead of a business school.",
-        "type": "rating",
-        "scale": 5
       }
     ],
     "open_ended": [
+      
+      {
+        "question": "Can you share any experiences where you felt the engineering college setting affected what E-Cell could or couldn’t do?",
+        "type": "text"
+      },
       {
         "question": "What do you think this E-Cell can do next to raise its standard to national level?",
         "type": "text"
