@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Cell BMSIT&M Questionnaire</title>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">E-Cell BMSIT&M</div>
+            <div class="subtitle">Entrepreneurship Development Survey</div>
+        </div>
+
+        <div class="card">
+            <div class="progress-bar">
+                <div class="progress-fill" id="progressFill"></div>
+            </div>
+
+            <!-- Welcome Screen -->
+            <div id="welcomeScreen" class="welcome-screen">
+                <h2 class="welcome-title">Describe your relation with E-Cell BMSIT&M</h2>
+                <p class="welcome-description">
+                    Help us understand your connection with the Entrepreneurship Cell and contribute to our research and development initiatives.
+                </p>
+                
+                <div class="name-input-container">
+                    <input type="text" id="nameInput" class="name-input" placeholder="Enter your full name" required>
+                    <div id="nameError" class="name-error">Please enter your name</div>
+                </div>
+                
+                <div class="user-type-selection">
+                    <button class="user-type-btn" onclick="startQuestionnaire('stakeholder')">
+                        Stakeholder
+                    </button>
+                    <button class="user-type-btn" onclick="startQuestionnaire('participant')">
+                        Participant
+                    </button>
+                </div>
+            </div>
+
+            <!-- Question Container -->
+            <div id="questionContainer" class="question-container">
+                <div id="questionText" class="question"></div>
+                <div id="optionsContainer" class="options"></div>
+                
+                <div class="navigation-buttons">
+                    <button id="prevBtn" class="btn btn-secondary" onclick="previousQuestion()" disabled>Previous</button>
+                    <button id="nextBtn" class="btn" onclick="nextQuestion()" disabled>Next</button>
+                    <button id="skipBtn" class="btn btn-skip" onclick="skipQuestion()" style="display: none;">Skip</button>
+                </div>
+            </div>
+
+            <!-- Thank You Screen -->
+            <div id="thankYouScreen" class="thank-you">
+                <h2>Thank You! 🎉</h2>
+                <p>Your responses have been recorded successfully. We appreciate your time and valuable insights in helping us improve E-Cell BMSIT&M initiatives.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

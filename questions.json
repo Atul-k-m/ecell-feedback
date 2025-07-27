@@ -1,0 +1,203 @@
+{
+  "stakeholder": {
+    "year_question": {
+      "question": "Which academic year did you start your association with E-Cell?",
+      "type": "multiple_choice",
+      "options": ["2023-24", "2022-23", "2021-22", "2020-21", "2019-20", "Before 2019"]
+    },
+    "role_question": {
+      "question": "What role(s) have you played in E-Cell activities?",
+      "type": "multiple_choice",
+      "options": ["Judge", "Organizer", "Volunteer", "Mentor", "Speaker", "Multiple roles"]
+    },
+    "rating_questions": [
+      {
+        "question": "I was satisfied with the event crowd — the participants were thoughtful and engaged.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I felt that my presence contributed meaningfully to the overall experience.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The events upheld a sense of purpose and direction throughout.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "There was genuine curiosity and commitment from the participants.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The event themes and structure aligned well with current entrepreneurial landscapes.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The organizational flow felt smooth and intentional.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "There was adequate space for nuanced dialogue and mentoring.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I would like to engage with the E-Cell in future initiatives.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I felt the event was about real impact, not just presentation.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The students demonstrated remarkable ownership and professionalism.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I saw attempts to explore original ideas, not just copied templates.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The team managed unexpected situations with maturity.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "It was easy to see the long-term potential in the event’s goals.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I felt proud to be part of this initiative.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I felt that E-Cell sometimes had to compromise or limit its scope due to the nature of being in an engineering college instead of a business school.",
+        "type": "rating",
+        "scale": 5
+      }
+    ],
+    "open_ended": [
+      {
+        "question": "What do you think this E-Cell can do next to raise its standard to national level?",
+        "type": "text"
+      },
+      {
+        "question": "Share one moment or conversation that stayed with you.",
+        "type": "text"
+      },
+      {
+        "question": "One constructive suggestion for the organizing team:",
+        "type": "text"
+      }
+    ]
+  },
+  "participant": {
+    "event_question": {
+      "question": "Which E-Cell event did you most recently participate in?",
+      "type": "multiple_choice",
+      "options": ["CodeRed24", "CodeRed25", "Advert1.0", "SPL", "Advert2.0","other"]
+    },
+    "rating_questions": [
+      {
+        "question": "I was satisfied with the event crowd — it felt like a safe and inspiring environment.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I walked away with new perspectives I hadn’t considered before.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The sessions helped me understand entrepreneurship more deeply.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I felt a genuine connection to the ideas and people involved.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I learned something I couldn’t have picked up from just YouTube or classes.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The speakers or mentors made me rethink how I look at problems.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I was encouraged to reflect on my own goals and values.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The overall energy of the event made me want to build something.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The E-Cell team created a welcoming, open space for everyone.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I felt mentally and emotionally engaged throughout.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I didn’t feel lost or irrelevant during any session.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The event inspired me to take some kind of action (even if small).",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I got to meet or listen to someone who truly inspired me.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "I felt that this event was made for students and by students in the best way.",
+        "type": "rating",
+        "scale": 5
+      },
+      {
+        "question": "The event improved my understanding of business and made me want to grow/start a startup.",
+        "type": "rating",
+        "scale": 5
+      }
+    ],
+    "open_ended": [
+      {
+        "question": "What’s one thing that changed in your thinking because of this event?",
+        "type": "text"
+      },
+      {
+        "question": "What’s one moment that felt special or memorable?",
+        "type": "text"
+      },
+      {
+        "question": "What could we change to make this event feel more 'you'?",
+        "type": "text"
+      }
+    ]
+  }
+}
